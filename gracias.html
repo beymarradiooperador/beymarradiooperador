@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cierre de Página - Neon Genesis Evangelion</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #3c3c5a, #8b4e8b);
+            text-align: center;
+            padding: 50px;
+            margin: 0;
+            color: #fff;
+            overflow: hidden;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+            padding: 40px;
+            max-width: 600px;
+            margin: auto;
+            position: relative;
+            animation: fadeIn 1s ease-in;
+        }
+        h1 {
+            font-size: 2.5em;
+            color: #ff6347;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+        p {
+            font-size: 1.2em;
+            color: #e0e0e0;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+        }
+        .decoracion {
+            margin: 30px 0;
+            font-size: 30px;
+            color: #ff6347;
+            animation: pulse 1.5s infinite;
+        }
+        footer {
+            margin-top: 30px;
+            font-size: 14px;
+            color: #aaa;
+        }
+        .icono {
+            color: #ff6347;
+            margin: 0 10px;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        @keyframes pulse {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.2);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>¡Gracias por su atención!</h1>
+        <p>Esperamos que haya disfrutado de nuestra página.</p>
+        <div class="decoracion">
+            <i class="fas fa-star icono"></i>
+            <i class="fas fa-heart icono"></i>
+            <i class="fas fa-smile icono"></i>
+            <i class="fas fa-star icono"></i>
+        </div>
+        <p>¡Vuelva pronto!</p>
+    </div>
+    <footer>
+        &copy; 2024 Su Empresa. Todos los derechos reservados.
+    </footer>
+</body>
+</html>
